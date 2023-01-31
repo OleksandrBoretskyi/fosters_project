@@ -1,0 +1,51 @@
+@@include('./layout/head.html')
+<body>
+<header>
+    <div class="container">
+        <div class="header-container">
+            <a href="/" class="header-logo animate__fadeInLeft wow" data-wow-duration=".5s" data-wow-delay=".2s">
+                <img src="img/logo.png" alt="">
+            </a>
+            <nav class="header-menu animate__fadeInLeft wow" data-wow-duration=".5s" data-wow-delay=".1s">
+                <ul class="header-menu__items">
+                    <li class="header-menu__item">
+                        <a href="/" class="header-menu__link">Home</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="projekty.html" class="header-menu__link header-menu__link_active">Projekty</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="specyfikacja.html" class="header-menu__link">Specyfikacja</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a href="kontakt.html" class="header-menu__link">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="soc-link__items animate__fadeInLeft wow" data-wow-duration=".5s" data-wow-delay=".0s">
+                <a href="#" class="soc-link__item">
+                    <span class="icon-instagram"></span>
+                </a>
+                <a href="#" class="soc-link__item">
+                    <span class="icon-facebook"></span>
+                </a>
+                <a href="#" class="soc-link__item">
+                    <span class="icon-vk"></span>
+                </a>
+            </div>
+            <div class="hamburger animate__fadeInLeft wow" data-wow-duration=".5s" data-wow-delay=".0s">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    @@include('./component/projekty.html')
+</main>
+@@include('./layout/footer.html')
+</body>
+
+</html>
+@@include('./layout/script.html')
